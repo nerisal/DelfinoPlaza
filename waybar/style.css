@@ -1,0 +1,110 @@
+* {
+    border: none;
+    font-size: 14px;
+    font-family: "Utendo" ;
+}
+
+window#waybar {
+  background: transparent;
+ }
+
+#custom-logo {
+  padding: 0 10px;
+}
+
+.modules-right {
+
+}
+
+.modules-center {
+  padding: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+  background-image:
+  radial-gradient(circle at 2% 1%,
+                  rgba(255,255,255,1),
+                  rgba(255,255,255,0.0) 25%
+  ),
+  radial-gradient(circle at 90% 100%,
+                  rgba(255,255,255,0.6),
+                  rgba(255,255,255,0.0) 10%
+  );
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4), inset 0 0 4px rgba(0, 0, 0, 0.4);
+
+}
+
+.modules-left {
+  border-radius: 0 15px 15px 0;
+  margin-top: 2px;
+  background: #000000;
+}
+
+#battery,
+#custom-clipboard,
+#custom-colorpicker,
+#custom-powerDraw,
+#bluetooth,
+#pulseaudio,
+#network,
+#disk,
+#memory,
+#backlight,
+#cpu,
+#temperature,
+#custom-weather,
+#idle_inhibitor,
+#jack,
+#tray,
+#window,
+#workspaces,
+#clock {
+  padding: 0 5px;
+}
+#pulseaudio {
+  padding-top: 3px;
+}
+
+#temperature.critical,
+#pulseaudio.muted {
+  color: #FF0000;
+  padding-top: 0;
+}
+
+
+
+
+#clock{
+
+}
+
+#battery.charging {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #ffbe61;
+    color: black;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f53c3c;
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
