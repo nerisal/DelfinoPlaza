@@ -1,5 +1,5 @@
-# FrutigerNostalgia
-A KDE 6 Frutiger Aero (Wii) theme
+# Delfino Plaza
+A KDE 6 Wii/Wii-u-inspired theme.
 
 #TODO
 - [ ] Add more cursors resolutions
