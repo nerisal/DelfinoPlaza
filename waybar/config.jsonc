@@ -12,7 +12,7 @@
         "custom/ws-left"
     ],
     "modules-right": [
-    "custom/notifications",
+   // "custom/notifications",
         "group/weather-time",
         "mpd",
         "idle_inhibitor",
@@ -180,12 +180,12 @@
     },
 
     "custom/notifications": {
-  "exec": "swaync-client -swb",
-  "return-type": "json",
-  "format": "{icon} {text}",
-  "on-click": "swaync-client -t",
-  "on-click-right": "swaync-client -C",
-  "escape": true
+        "exec": "swaync-client -swb",
+        "return-type": "json",
+        "format": "{icon} {text}",
+        "on-click": "swaync-client -t",
+        "on-click-right": "swaync-client -C",
+        "escape": true
 }
 
 }
