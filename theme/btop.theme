@@ -1,0 +1,84 @@
+# Main background, lascia vuoto per terminal default
+theme.main_bg = "#F9F9F9"
+
+# Main text color
+theme.main_fg = "#4c4f69"
+
+# Title color for boxes
+theme.title = "#4c4f69"
+
+# Highlight color for keyboard shortcuts
+theme.hi_fg = "#04C3CF"  # Blu elettrico Wii U
+
+# Background color of selected item in processes box
+theme.selected_bg = "#BCC0CC"
+
+# Foreground color of selected item in processes box
+theme.selected_fg = "#04C3CF"  # Blu Wii U
+
+# Color of inactive/disabled text
+theme.inactive_fg = "#8c8fa1"
+
+# Color of text appearing on top of graphs (uptime, network scale)
+theme.graph_text = "#EA4335"  # Rosso Mario
+
+# Background color of the percentage meters
+theme.meter_bg = "#BCC0CC"
+
+# Misc colors for processes box including mini cpu graphs, memory graph, status text
+theme.proc_misc = "#EA4335"  # Rosso Mario
+
+# CPU, Memory, Network, Proc box outline colors
+theme.cpu_box = "#A142F4"  # Viola Yoshi
+theme.mem_box = "#0F9D58"  # Verde Luigi
+theme.net_box = "#EA4335"  # Rosso Mario
+theme.proc_box = "#04C3CF" # Blu Wii U
+
+# Box divider line and small boxes line color
+theme.div_line = "#9CA0B0"
+
+# Temperature graph color (Green -> Yellow -> Red)
+theme.temp_start = "#0F9D58"  # Verde Luigi
+theme.temp_mid = "#FBBC05"    # Giallo eShop
+theme.temp_end = "#EA4335"    # Rosso Mario
+
+# CPU graph colors (Teal -> Lavender)
+theme.cpu_start = "#00BFA5"  # Ciano Wii U
+theme.cpu_mid = "#7287FD"    # Blu chiaro
+theme.cpu_end = "#A142F4"    # Viola Yoshi
+
+# Mem/Disk free meter (Mauve -> Lavender -> Blue)
+theme.free_start = "#A142F4"  # Viola Yoshi
+theme.free_mid = "#7287FD"    # Blu chiaro
+theme.free_end = "#04C3CF"    # Blu Wii U
+
+# Mem/Disk cached meter (Sapphire -> Lavender)
+theme.cached_start = "#00BFA5" # Ciano Wii U
+theme.cached_mid = "#04C3CF"   # Blu Wii U
+theme.cached_end = "#7287FD"   # Blu chiaro
+
+# Mem/Disk available meter (Peach -> Red)
+theme.available_start = "#FBBC05"  # Giallo eShop
+theme.available_mid = "#EA4335"    # Rosso Mario
+theme.available_end = "#D20F39"    # Rosso intenso
+
+# Mem/Disk used meter (Green -> Sky)
+theme.used_start = "#0F9D58"  # Verde Luigi
+theme.used_mid = "#00BFA5"    # Ciano Wii U
+theme.used_end = "#04C3CF"    # Blu Wii U
+
+# Download graph colors (Peach -> Red)
+theme.download_start = "#FBBC05"  # Giallo eShop
+theme.download_mid = "#EA4335"    # Rosso Mario
+theme.download_end = "#D20F39"    # Rosso intenso
+
+# Upload graph colors (Green -> Sky)
+theme.upload_start = "#0F9D58"  # Verde Luigi
+theme.upload_mid = "#00BFA5"    # Ciano Wii U
+theme.upload_end = "#04C3CF"    # Blu Wii U
+
+# Process box color gradient for threads, mem and cpu usage (Sapphire -> Mauve)
+theme.process_start = "#00BFA5"  # Ciano Wii U
+theme.process_mid = "#7287FD"    # Blu chiaro
+theme.process_end = "#A142F4"    # Viola Yoshi
+

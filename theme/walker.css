@@ -1,0 +1,16 @@
+@define-color selected-text #04C3CF;   /* Blu elettrico Wii U */
+@define-color text #1A1A1A;            /* Testo principale (quasi nero) */
+@define-color base #F4FAFB;            /* Superficie principale */
+@define-color border #04C3CF;          /* Bordi leggeri azzurrini */
+@define-color foreground #0A3A40;      /* Testo secondario / icone */
+@define-color background #EAF7F9;      /* Background generale */
+
+* {
+	font-family: 'PopHappiness';
+}
+
+.box-wrapper {
+	border-radius: 13px;
+	border: 3px solid;
+}
+

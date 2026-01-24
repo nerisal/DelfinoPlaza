@@ -1,0 +1,27 @@
+# Core UI
+accent = "#04C3CF"                 # Blu elettrico Wii U
+cursor = "#EA4335"                 # Rosso Mario per il cursore
+foreground = "#6C6F85"             # Testo secondario / icone
+background = "#F9F9F9"             # Background principale
+selection_foreground = "#EAF7F9"   # Testo selezionato
+selection_background = "#04C3CF"   # Evidenziazione ciano Wii U
+
+# Palette 16 colori
+color0  = "#BCC0CC"  # Nero/grigio chiaro
+color1  = "#EA4335"  # Rosso Mario
+color2  = "#0F9D58"  # Verde Luigi
+color3  = "#FBBC05"  # Giallo eShop / coin
+color4  = "#04C3CF"  # Blu elettrico Wii U
+color5  = "#A142F4"  # Viola Yoshi / colore Nintendo
+color6  = "#00BFA5"  # Ciano secondario / Wii U
+color7  = "#5C5F77"  # Grigio medio
+color8  = "#ACB0BE"  # Grigio chiaro
+color9  = "#EA4335"  # Rosso brillante Mario
+color10 = "#0F9D58"  # Verde brillante Luigi
+color11 = "#FBBC05"  # Giallo brillante eShop
+color12 = "#04C3CF"  # Blu brillante Wii U
+color13 = "#A142F4"  # Viola Yoshi
+color14 = "#00BFA5"  # Ciano Wii U chiaro
+color15 = "#6C6F85"  # Grigio scuro
+
+
