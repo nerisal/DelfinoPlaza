@@ -10,4 +10,8 @@ A Hyprland (Omarchy) Wii/Wii U-inspired theme.
 
 Delfino Plaza is a nostalgic yet functional desktop theme inspired by the **Frutiger Aero** aesthetic and the visual identity of **Nintendo's Wii and Wii U** era. Think glossy surfaces, soft blues, bubbly UI elements, and that warm early-2000s optimism, all running on a modern Hyprland setup.
 
-This theme is assembled from various sources across the community. The Waybar icons are custom-made by me. It uses the **Comix** cursor theme, **Reversal-Blue** icons for the file manager and system UI, and original **Nintendo fonts** to complete the look.
+This theme is assembled from various sources across the community. The Waybar icons are custom-made by me. It uses the **Comix** cursor theme, **Reversal-Blue** icons for the file manager and system UI, and original **Nintendo fonts** to complete the look.##
+
+## License
+The GPL license applies only to the original files and configurations in this repository by me.
+Third-party assets (fonts, icons, cursor themes) are excluded and remain property of their respective owners.
