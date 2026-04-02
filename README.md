@@ -1,7 +1,7 @@
 # Delfino Plaza
 A Hyprland (Omarchy) Wii/Wii U-inspired theme.
 
-![Preview](themes/preview.png)
+![Preview](theme/preview.png)
 
 > [!IMPORTANT]
 > Delfino plaza is my personal set up for Omarchy and Hyprland.
