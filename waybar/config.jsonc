@@ -5,9 +5,9 @@
   "spacing": 0,
   "height": 26,
   "modules-left": ["custom/omarchy", "clock", "mpris"],
-  "modules-center": ["hyprland/workspaces", "custom/update", "custom/voxtype", "custom/screenrecording-indicator"],
+  "modules-center": ["hyprland/workspaces", "custom/update", "custom/voxtype", "custom/screenrecording-indicator", "custom/idle-indicator", "custom/notification-silencing-indicator"],
   "modules-right": [
-    "group/tray-expander",
+    "hyprland/language",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -60,6 +60,9 @@
     "format": "{:L%H:%M - %a %d/%m}",
     "tooltip": false,
   },
+  "hyprland/language": {
+   "format" : "{short}",
+  },
   "network": {
     "format-icons": ["󰤯", "󰤟 ", "󰤢", "󰤥", "󰤨"],
     "format": "{icon}",
@@ -110,6 +113,7 @@
     "format-muted": "",
     "format-icons": {
       "headphone": "",
+      "headset": "",
       "default": ["", "", ""]
     }
   },
@@ -140,6 +144,18 @@
     "on-click-right": "omarchy-voxtype-config",
     "on-click": "omarchy-voxtype-model"
   },
+  "custom/idle-indicator": {
+    "on-click": "omarchy-toggle-idle",
+    "exec": "$OMARCHY_PATH/default/waybar/indicators/idle.sh",
+    "signal": 9,
+    "return-type": "json"
+  },
+  "custom/notification-silencing-indicator": {
+    "on-click": "omarchy-toggle-notification-silencing",
+    "exec": "$OMARCHY_PATH/default/waybar/indicators/notification-silencing.sh",
+    "signal": 10,
+    "return-type": "json"
+  },
   "tray": {
     "icon-size": 12,
     "spacing": 17
@@ -149,10 +165,10 @@
   "dynamic-order": ["title", "artist"],
   "dynamic-importance-order": ["artist"],
   "dynamic-separator": " - ",
-  "dynamic-len": 30,
-  "max-length": 35,
+  "dynamic-len": 35,
+  "max-length": 60,
   "interval": 1,
-  "status-icons": { "playing": "▶", "paused": "⏸", "stopped": "" },
+  "status-icons": { "playing": "⏸", "paused": "▶", "stopped": "" },
   "tooltip": false
 }
 

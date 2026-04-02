@@ -1,14 +1,11 @@
 # Delfino Plaza
 A Hyprland (Omarchy) Wii/Wii U-inspired theme.
 
-> [!WARNING]
-> *Delfino Plaza* is currently in **VERY** early development.
+> [!IMPORTANT]
+> Delfino plaza is my personal set up for Omarchy and Hyprland.
+> The files you will find here are just the configurations. You still have to have a pretty good knowledge of how Omarchy and Hyprland are structured to implement this.
+> You have to set up the theme, the cursors, the icons, the waybar and so on.
 
-#TODO
-- [ ] Add detailed README
-- [ ] Add Hyprland and XCursor cursors with icons buid from scratch
-- [ ] Add more backgrounds
-- [ ] Tweak colors and css
-- [ ] Expand number of customized apps
-- [ ] Manage all metadata
-- [ ] Add system sounds (?)
+TODO
+ 
+
